@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container {
+  padding: 50px 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/provinces-bg.jpg');
+}
+
+.data-item {
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.data-item i{
+  font-size: 12px;
+}
+
+.delete-btn i{
+  color: #ff5252;
+}
+
+.delete-btn i:hover{
+  color: red;
+}
+
+.custom-btn{
+  background-color: #E17564!important;
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.custom-btn:hover{
+  background-color: #BE3144!important;
+}
+
+.logo{
+  height: 100px
+}
+
+.card-body{
+  max-height: 212px;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 400px){
+  .logo{
+    height: 70px;
+  }
+}
